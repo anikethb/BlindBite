@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE3EB4E51F02024C004D1782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EB4E41F02024C004D1782 /* AppDelegate.swift */; };
+		CE3EB4E71F02024C004D1782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EB4E61F02024C004D1782 /* ViewController.swift */; };
+		CE3EB4EA1F02024C004D1782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3EB4E81F02024C004D1782 /* Main.storyboard */; };
+		CE3EB4EC1F02024C004D1782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3EB4EB1F02024C004D1782 /* Assets.xcassets */; };
+		CE3EB4EF1F02024C004D1782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3EB4ED1F02024C004D1782 /* LaunchScreen.storyboard */; };
+		CE3EB4FA1F02024C004D1782 /* Blind_BiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EB4F91F02024C004D1782 /* Blind_BiteTests.swift */; };
+		CE3EB5051F02024C004D1782 /* Blind_BiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EB5041F02024C004D1782 /* Blind_BiteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE3EB4F61F02024C004D1782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE3EB4D91F02024C004D1782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE3EB4E01F02024C004D1782;
+			remoteInfo = "Blind Bite";
+		};
+		CE3EB5011F02024C004D1782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE3EB4D91F02024C004D1782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE3EB4E01F02024C004D1782;
+			remoteInfo = "Blind Bite";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE3EB4E11F02024C004D1782 /* Blind Bite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blind Bite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3EB4E41F02024C004D1782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE3EB4E61F02024C004D1782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE3EB4E91F02024C004D1782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE3EB4EB1F02024C004D1782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE3EB4EE1F02024C004D1782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE3EB4F01F02024C004D1782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3EB4F51F02024C004D1782 /* Blind BiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blind BiteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3EB4F91F02024C004D1782 /* Blind_BiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blind_BiteTests.swift; sourceTree = "<group>"; };
+		CE3EB4FB1F02024C004D1782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3EB5001F02024C004D1782 /* Blind BiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blind BiteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3EB5041F02024C004D1782 /* Blind_BiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blind_BiteUITests.swift; sourceTree = "<group>"; };
+		CE3EB5061F02024C004D1782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE3EB4DE1F02024C004D1782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3EB4F21F02024C004D1782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3EB4FD1F02024C004D1782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE3EB4D81F02024C004D1782 = {
+			isa = PBXGroup;
+			children = (
+				CE3EB4E31F02024C004D1782 /* Blind Bite */,
+				CE3EB4F81F02024C004D1782 /* Blind BiteTests */,
+				CE3EB5031F02024C004D1782 /* Blind BiteUITests */,
+				CE3EB4E21F02024C004D1782 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE3EB4E21F02024C004D1782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3EB4E11F02024C004D1782 /* Blind Bite.app */,
+				CE3EB4F51F02024C004D1782 /* Blind BiteTests.xctest */,
+				CE3EB5001F02024C004D1782 /* Blind BiteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE3EB4E31F02024C004D1782 /* Blind Bite */ = {
+			isa = PBXGroup;
+			children = (
+				CE3EB4E41F02024C004D1782 /* AppDelegate.swift */,
+				CE3EB4E61F02024C004D1782 /* ViewController.swift */,
+				CE3EB4E81F02024C004D1782 /* Main.storyboard */,
+				CE3EB4EB1F02024C004D1782 /* Assets.xcassets */,
+				CE3EB4ED1F02024C004D1782 /* LaunchScreen.storyboard */,
+				CE3EB4F01F02024C004D1782 /* Info.plist */,
+			);
+			path = "Blind Bite";
+			sourceTree = "<group>";
+		};
+		CE3EB4F81F02024C004D1782 /* Blind BiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE3EB4F91F02024C004D1782 /* Blind_BiteTests.swift */,
+				CE3EB4FB1F02024C004D1782 /* Info.plist */,
+			);
+			path = "Blind BiteTests";
+			sourceTree = "<group>";
+		};
+		CE3EB5031F02024C004D1782 /* Blind BiteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE3EB5041F02024C004D1782 /* Blind_BiteUITests.swift */,
+				CE3EB5061F02024C004D1782 /* Info.plist */,
+			);
+			path = "Blind BiteUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE3EB4E01F02024C004D1782 /* Blind Bite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3EB5091F02024C004D1782 /* Build configuration list for PBXNativeTarget "Blind Bite" */;
+			buildPhases = (
+				CE3EB4DD1F02024C004D1782 /* Sources */,
+				CE3EB4DE1F02024C004D1782 /* Frameworks */,
+				CE3EB4DF1F02024C004D1782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blind Bite";
+			productName = "Blind Bite";
+			productReference = CE3EB4E11F02024C004D1782 /* Blind Bite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE3EB4F41F02024C004D1782 /* Blind BiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3EB50C1F02024C004D1782 /* Build configuration list for PBXNativeTarget "Blind BiteTests" */;
+			buildPhases = (
+				CE3EB4F11F02024C004D1782 /* Sources */,
+				CE3EB4F21F02024C004D1782 /* Frameworks */,
+				CE3EB4F31F02024C004D1782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE3EB4F71F02024C004D1782 /* PBXTargetDependency */,
+			);
+			name = "Blind BiteTests";
+			productName = "Blind BiteTests";
+			productReference = CE3EB4F51F02024C004D1782 /* Blind BiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE3EB4FF1F02024C004D1782 /* Blind BiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3EB50F1F02024C004D1782 /* Build configuration list for PBXNativeTarget "Blind BiteUITests" */;
+			buildPhases = (
+				CE3EB4FC1F02024C004D1782 /* Sources */,
+				CE3EB4FD1F02024C004D1782 /* Frameworks */,
+				CE3EB4FE1F02024C004D1782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE3EB5021F02024C004D1782 /* PBXTargetDependency */,
+			);
+			name = "Blind BiteUITests";
+			productName = "Blind BiteUITests";
+			productReference = CE3EB5001F02024C004D1782 /* Blind BiteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3EB4D91F02024C004D1782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Aniketh;
+				TargetAttributes = {
+					CE3EB4E01F02024C004D1782 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					CE3EB4F41F02024C004D1782 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE3EB4E01F02024C004D1782;
+					};
+					CE3EB4FF1F02024C004D1782 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE3EB4E01F02024C004D1782;
+					};
+				};
+			};
+			buildConfigurationList = CE3EB4DC1F02024C004D1782 /* Build configuration list for PBXProject "Blind Bite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE3EB4D81F02024C004D1782;
+			productRefGroup = CE3EB4E21F02024C004D1782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE3EB4E01F02024C004D1782 /* Blind Bite */,
+				CE3EB4F41F02024C004D1782 /* Blind BiteTests */,
+				CE3EB4FF1F02024C004D1782 /* Blind BiteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE3EB4DF1F02024C004D1782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3EB4EF1F02024C004D1782 /* LaunchScreen.storyboard in Resources */,
+				CE3EB4EC1F02024C004D1782 /* Assets.xcassets in Resources */,
+				CE3EB4EA1F02024C004D1782 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3EB4F31F02024C004D1782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3EB4FE1F02024C004D1782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE3EB4DD1F02024C004D1782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3EB4E71F02024C004D1782 /* ViewController.swift in Sources */,
+				CE3EB4E51F02024C004D1782 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3EB4F11F02024C004D1782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3EB4FA1F02024C004D1782 /* Blind_BiteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3EB4FC1F02024C004D1782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3EB5051F02024C004D1782 /* Blind_BiteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE3EB4F71F02024C004D1782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE3EB4E01F02024C004D1782 /* Blind Bite */;
+			targetProxy = CE3EB4F61F02024C004D1782 /* PBXContainerItemProxy */;
+		};
+		CE3EB5021F02024C004D1782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE3EB4E01F02024C004D1782 /* Blind Bite */;
+			targetProxy = CE3EB5011F02024C004D1782 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE3EB4E81F02024C004D1782 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3EB4E91F02024C004D1782 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE3EB4ED1F02024C004D1782 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3EB4EE1F02024C004D1782 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE3EB5071F02024C004D1782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE3EB5081F02024C004D1782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE3EB50A1F02024C004D1782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Blind Bite/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "blindbite.Blind-Bite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CE3EB50B1F02024C004D1782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Blind Bite/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "blindbite.Blind-Bite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CE3EB50D1F02024C004D1782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Blind BiteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "blindbite.Blind-BiteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blind Bite.app/Blind Bite";
+			};
+			name = Debug;
+		};
+		CE3EB50E1F02024C004D1782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Blind BiteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "blindbite.Blind-BiteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blind Bite.app/Blind Bite";
+			};
+			name = Release;
+		};
+		CE3EB5101F02024C004D1782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Blind BiteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "blindbite.Blind-BiteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Blind Bite";
+			};
+			name = Debug;
+		};
+		CE3EB5111F02024C004D1782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Blind BiteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "blindbite.Blind-BiteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Blind Bite";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE3EB4DC1F02024C004D1782 /* Build configuration list for PBXProject "Blind Bite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3EB5071F02024C004D1782 /* Debug */,
+				CE3EB5081F02024C004D1782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3EB5091F02024C004D1782 /* Build configuration list for PBXNativeTarget "Blind Bite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3EB50A1F02024C004D1782 /* Debug */,
+				CE3EB50B1F02024C004D1782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE3EB50C1F02024C004D1782 /* Build configuration list for PBXNativeTarget "Blind BiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3EB50D1F02024C004D1782 /* Debug */,
+				CE3EB50E1F02024C004D1782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE3EB50F1F02024C004D1782 /* Build configuration list for PBXNativeTarget "Blind BiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3EB5101F02024C004D1782 /* Debug */,
+				CE3EB5111F02024C004D1782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE3EB4D91F02024C004D1782 /* Project object */;
+}

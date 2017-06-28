@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		560A239D1B2078D90E53F4CB /* Pods_Blind_BiteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AADCD62938D072BAB884C6A5 /* Pods_Blind_BiteTests.framework */; };
 		CE3EB4E51F02024C004D1782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EB4E41F02024C004D1782 /* AppDelegate.swift */; };
 		CE3EB4E71F02024C004D1782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EB4E61F02024C004D1782 /* ViewController.swift */; };
 		CE3EB4EA1F02024C004D1782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3EB4E81F02024C004D1782 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		CE3EB4EF1F02024C004D1782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3EB4ED1F02024C004D1782 /* LaunchScreen.storyboard */; };
 		CE3EB4FA1F02024C004D1782 /* Blind_BiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EB4F91F02024C004D1782 /* Blind_BiteTests.swift */; };
 		CE3EB5051F02024C004D1782 /* Blind_BiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EB5041F02024C004D1782 /* Blind_BiteUITests.swift */; };
+		E46F11FDCAC76281D24958D7 /* Pods_Blind_BiteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9215407F407F95197DC311C /* Pods_Blind_BiteUITests.framework */; };
+		E62B85F23202081F8E4AE20E /* Pods_Blind_Bite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C49ECCA5929A7B3115B0BE1 /* Pods_Blind_Bite.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05F468D42118A6DF8250A3EC /* Pods-Blind Bite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blind Bite.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blind Bite/Pods-Blind Bite.debug.xcconfig"; sourceTree = "<group>"; };
+		0D8F815872BAC2BDF199A7A8 /* Pods-Blind BiteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blind BiteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blind BiteTests/Pods-Blind BiteTests.release.xcconfig"; sourceTree = "<group>"; };
+		8862CD817A92FEDC4CD16DD9 /* Pods-Blind BiteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blind BiteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blind BiteUITests/Pods-Blind BiteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B63A228E2ECF566DDFF7DD2 /* Pods-Blind BiteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blind BiteUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blind BiteUITests/Pods-Blind BiteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9C49ECCA5929A7B3115B0BE1 /* Pods_Blind_Bite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blind_Bite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A252B8BDF54ED6E4AC69A119 /* Pods-Blind Bite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blind Bite.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blind Bite/Pods-Blind Bite.release.xcconfig"; sourceTree = "<group>"; };
+		A9215407F407F95197DC311C /* Pods_Blind_BiteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blind_BiteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AADCD62938D072BAB884C6A5 /* Pods_Blind_BiteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blind_BiteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC42535F82F613F78EEBD96E /* Pods-Blind BiteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blind BiteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blind BiteTests/Pods-Blind BiteTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CE3EB4E11F02024C004D1782 /* Blind Bite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blind Bite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3EB4E41F02024C004D1782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE3EB4E61F02024C004D1782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E62B85F23202081F8E4AE20E /* Pods_Blind_Bite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				560A239D1B2078D90E53F4CB /* Pods_Blind_BiteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E46F11FDCAC76281D24958D7 /* Pods_Blind_BiteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BEC335122DBF37313E882340 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C49ECCA5929A7B3115B0BE1 /* Pods_Blind_Bite.framework */,
+				AADCD62938D072BAB884C6A5 /* Pods_Blind_BiteTests.framework */,
+				A9215407F407F95197DC311C /* Pods_Blind_BiteUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE3EB4D81F02024C004D1782 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				CE3EB4F81F02024C004D1782 /* Blind BiteTests */,
 				CE3EB5031F02024C004D1782 /* Blind BiteUITests */,
 				CE3EB4E21F02024C004D1782 /* Products */,
+				F13417DFD8DB2C607B564EAD /* Pods */,
+				BEC335122DBF37313E882340 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,19 @@
 			path = "Blind BiteUITests";
 			sourceTree = "<group>";
 		};
+		F13417DFD8DB2C607B564EAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05F468D42118A6DF8250A3EC /* Pods-Blind Bite.debug.xcconfig */,
+				A252B8BDF54ED6E4AC69A119 /* Pods-Blind Bite.release.xcconfig */,
+				BC42535F82F613F78EEBD96E /* Pods-Blind BiteTests.debug.xcconfig */,
+				0D8F815872BAC2BDF199A7A8 /* Pods-Blind BiteTests.release.xcconfig */,
+				8862CD817A92FEDC4CD16DD9 /* Pods-Blind BiteUITests.debug.xcconfig */,
+				8B63A228E2ECF566DDFF7DD2 /* Pods-Blind BiteUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE3EB5091F02024C004D1782 /* Build configuration list for PBXNativeTarget "Blind Bite" */;
 			buildPhases = (
+				633E5BA048CD05E3933ADA87 /* [CP] Check Pods Manifest.lock */,
 				CE3EB4DD1F02024C004D1782 /* Sources */,
 				CE3EB4DE1F02024C004D1782 /* Frameworks */,
 				CE3EB4DF1F02024C004D1782 /* Resources */,
+				B94762DFABB2953DB015773E /* [CP] Embed Pods Frameworks */,
+				03A83518E74F6E17576F17CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE3EB50C1F02024C004D1782 /* Build configuration list for PBXNativeTarget "Blind BiteTests" */;
 			buildPhases = (
+				F1C571CE8130FEF08016E3E4 /* [CP] Check Pods Manifest.lock */,
 				CE3EB4F11F02024C004D1782 /* Sources */,
 				CE3EB4F21F02024C004D1782 /* Frameworks */,
 				CE3EB4F31F02024C004D1782 /* Resources */,
+				E45973DA41D9D8DE91AF02FA /* [CP] Embed Pods Frameworks */,
+				0B688F55DC35B6CB23995A8E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE3EB50F1F02024C004D1782 /* Build configuration list for PBXNativeTarget "Blind BiteUITests" */;
 			buildPhases = (
+				C57DAFB1283EFD748A32EC4C /* [CP] Check Pods Manifest.lock */,
 				CE3EB4FC1F02024C004D1782 /* Sources */,
 				CE3EB4FD1F02024C004D1782 /* Frameworks */,
 				CE3EB4FE1F02024C004D1782 /* Resources */,
+				3792A653A3AFA33355FF5771 /* [CP] Embed Pods Frameworks */,
+				E09ACF30C8108423D4D38CF5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +242,7 @@
 				TargetAttributes = {
 					CE3EB4E01F02024C004D1782 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = J97MKHXHWF;
 						ProvisioningStyle = Automatic;
 					};
 					CE3EB4F41F02024C004D1782 = {
@@ -253,6 +303,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03A83518E74F6E17576F17CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blind Bite/Pods-Blind Bite-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B688F55DC35B6CB23995A8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blind BiteTests/Pods-Blind BiteTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3792A653A3AFA33355FF5771 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blind BiteUITests/Pods-Blind BiteUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		633E5BA048CD05E3933ADA87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B94762DFABB2953DB015773E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blind Bite/Pods-Blind Bite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C57DAFB1283EFD748A32EC4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E09ACF30C8108423D4D38CF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blind BiteUITests/Pods-Blind BiteUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E45973DA41D9D8DE91AF02FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blind BiteTests/Pods-Blind BiteTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1C571CE8130FEF08016E3E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE3EB4DD1F02024C004D1782 /* Sources */ = {
@@ -410,8 +598,10 @@
 		};
 		CE3EB50A1F02024C004D1782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05F468D42118A6DF8250A3EC /* Pods-Blind Bite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J97MKHXHWF;
 				INFOPLIST_FILE = "Blind Bite/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "blindbite.Blind-Bite";
@@ -422,8 +612,10 @@
 		};
 		CE3EB50B1F02024C004D1782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A252B8BDF54ED6E4AC69A119 /* Pods-Blind Bite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J97MKHXHWF;
 				INFOPLIST_FILE = "Blind Bite/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "blindbite.Blind-Bite";
@@ -434,6 +626,7 @@
 		};
 		CE3EB50D1F02024C004D1782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC42535F82F613F78EEBD96E /* Pods-Blind BiteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +641,7 @@
 		};
 		CE3EB50E1F02024C004D1782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D8F815872BAC2BDF199A7A8 /* Pods-Blind BiteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +656,7 @@
 		};
 		CE3EB5101F02024C004D1782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8862CD817A92FEDC4CD16DD9 /* Pods-Blind BiteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Blind BiteUITests/Info.plist";
@@ -475,6 +670,7 @@
 		};
 		CE3EB5111F02024C004D1782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B63A228E2ECF566DDFF7DD2 /* Pods-Blind BiteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Blind BiteUITests/Info.plist";

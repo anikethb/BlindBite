@@ -1,0 +1,6 @@
+framework module Pods_Blind_BiteTests {
+  umbrella header "Pods-Blind BiteTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

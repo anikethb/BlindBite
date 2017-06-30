@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Blind Bite
 //
-//  Created by Aniketh on 6/26/17.
+//  Created by Aniketh and Anand on 6/26/17.
 //  Copyright © 2017 Aniketh. All rights reserved.
 //
 

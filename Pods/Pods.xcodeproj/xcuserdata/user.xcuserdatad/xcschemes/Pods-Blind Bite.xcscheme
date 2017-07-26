@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "86128B51768466ECCC9FCEFCC2E19F83"
+               BlueprintIdentifier = "76BC857B54C10713A0A02DF2194AA04F"
                BuildableName = "Pods_Blind_Bite.framework"
                BlueprintName = "Pods-Blind Bite"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "86128B51768466ECCC9FCEFCC2E19F83"
+            BlueprintIdentifier = "76BC857B54C10713A0A02DF2194AA04F"
             BuildableName = "Pods_Blind_Bite.framework"
             BlueprintName = "Pods-Blind Bite"
             ReferencedContainer = "container:Pods.xcodeproj">

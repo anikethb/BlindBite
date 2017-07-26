@@ -10,6 +10,7 @@ target 'Blind Bite' do
     pod 'Firebase/Core'
     pod 'Firebase/Database'
     pod 'Firebase/Auth'
+    pod ‘Google/SignIn’
 
   target 'Blind BiteTests' do
     inherit! :search_paths
@@ -18,6 +19,7 @@ target 'Blind Bite' do
     pod ‘Firebase/Core’
     pod ‘Firebase/Database’
     pod ‘Firebase/Auth’
+    pod ‘Google/SignIn’
   end
 
   target 'Blind BiteUITests' do
@@ -27,6 +29,7 @@ target 'Blind Bite' do
     pod ‘Firebase/Core’
     pod ‘Firebase/Database’
     pod ‘Firebase/Auth’
+    pod ‘Google/SignIn’
   end
 
 end

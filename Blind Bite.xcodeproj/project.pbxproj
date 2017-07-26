@@ -15,6 +15,7 @@
 		CE3EB4EF1F02024C004D1782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3EB4ED1F02024C004D1782 /* LaunchScreen.storyboard */; };
 		CE3EB4FA1F02024C004D1782 /* Blind_BiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EB4F91F02024C004D1782 /* Blind_BiteTests.swift */; };
 		CE3EB5051F02024C004D1782 /* Blind_BiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EB5041F02024C004D1782 /* Blind_BiteUITests.swift */; };
+		CE58FEAD1F2850D6004B38A0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE58FEAC1F2850D6004B38A0 /* GoogleService-Info.plist */; };
 		E46F11FDCAC76281D24958D7 /* Pods_Blind_BiteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9215407F407F95197DC311C /* Pods_Blind_BiteUITests.framework */; };
 		E62B85F23202081F8E4AE20E /* Pods_Blind_Bite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C49ECCA5929A7B3115B0BE1 /* Pods_Blind_Bite.framework */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 		CE3EB5001F02024C004D1782 /* Blind BiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blind BiteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3EB5041F02024C004D1782 /* Blind_BiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blind_BiteUITests.swift; sourceTree = "<group>"; };
 		CE3EB5061F02024C004D1782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE58FEAC1F2850D6004B38A0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				CE3EB4E81F02024C004D1782 /* Main.storyboard */,
 				CE3EB4EB1F02024C004D1782 /* Assets.xcassets */,
 				CE3EB4ED1F02024C004D1782 /* LaunchScreen.storyboard */,
+				CE58FEAC1F2850D6004B38A0 /* GoogleService-Info.plist */,
 				CE3EB4F01F02024C004D1782 /* Info.plist */,
 			);
 			path = "Blind Bite";
@@ -284,6 +287,7 @@
 			files = (
 				CE3EB4EF1F02024C004D1782 /* LaunchScreen.storyboard in Resources */,
 				CE3EB4EC1F02024C004D1782 /* Assets.xcassets in Resources */,
+				CE58FEAD1F2850D6004B38A0 /* GoogleService-Info.plist in Resources */,
 				CE3EB4EA1F02024C004D1782 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -701,6 +705,7 @@
 				CE3EB50B1F02024C004D1782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE3EB50C1F02024C004D1782 /* Build configuration list for PBXNativeTarget "Blind BiteTests" */ = {
 			isa = XCConfigurationList;
@@ -709,6 +714,7 @@
 				CE3EB50E1F02024C004D1782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE3EB50F1F02024C004D1782 /* Build configuration list for PBXNativeTarget "Blind BiteUITests" */ = {
 			isa = XCConfigurationList;
@@ -717,6 +723,7 @@
 				CE3EB5111F02024C004D1782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

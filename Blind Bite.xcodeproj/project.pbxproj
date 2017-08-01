@@ -61,6 +61,7 @@
 		CE3EB5041F02024C004D1782 /* Blind_BiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blind_BiteUITests.swift; sourceTree = "<group>"; };
 		CE3EB5061F02024C004D1782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE58FEAC1F2850D6004B38A0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEDC32D91F3031EE00A61069 /* Blind Bite-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Blind Bite-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +134,7 @@
 				CE3EB4ED1F02024C004D1782 /* LaunchScreen.storyboard */,
 				CE58FEAC1F2850D6004B38A0 /* GoogleService-Info.plist */,
 				CE3EB4F01F02024C004D1782 /* Info.plist */,
+				CEDC32D91F3031EE00A61069 /* Blind Bite-Bridging-Header.h */,
 			);
 			path = "Blind Bite";
 			sourceTree = "<group>";
@@ -246,6 +248,7 @@
 					CE3EB4E01F02024C004D1782 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = J97MKHXHWF;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					CE3EB4F41F02024C004D1782 = {
@@ -605,11 +608,14 @@
 			baseConfigurationReference = 05F468D42118A6DF8250A3EC /* Pods-Blind Bite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = J97MKHXHWF;
 				INFOPLIST_FILE = "Blind Bite/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "blindbite.Blind-Bite";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Blind Bite/Blind Bite-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -619,11 +625,13 @@
 			baseConfigurationReference = A252B8BDF54ED6E4AC69A119 /* Pods-Blind Bite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = J97MKHXHWF;
 				INFOPLIST_FILE = "Blind Bite/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "blindbite.Blind-Bite";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Blind Bite/Blind Bite-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
